@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=3 uid="uid://b8r3o6cxv5f2l"]
+
+[ext_resource type="Texture2D" uid="uid://br5dck7n20dod" path="res://assets/2dClassroomAssetPackByStyloo/Classroom/Classroom First Spritesheet 1.png" id="1_418uk"]
+[ext_resource type="Texture2D" uid="uid://bjyowx3g8tcsn" path="res://assets/2dClassroomAssetPackByStyloo/WallFloorDoor second version tiling/strokespritesheet20125.png" id="2_dbeup"]
+[ext_resource type="Texture2D" uid="uid://b7l0sbtlgjvxp" path="res://assets/2dClassroomAssetPackByStyloo/Classroom/Classroom First Spritesheet 7.png" id="2_qf6my"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="bookself" type="Sprite2D" parent="."]
+position = Vector2(184, 77)
+scale = Vector2(0.587, 0.558)
+texture = ExtResource("1_418uk")
+region_enabled = true
+region_rect = Rect2(18.03, 152.733, 601.97, 258.024)
+
+[node name="floor" type="Sprite2D" parent="."]
+position = Vector2(73, 39)
+scale = Vector2(0.589166, 0.54525)
+texture = ExtResource("2_dbeup")
+region_enabled = true
+region_rect = Rect2(62.4229, 55.0095, 247.24, 143.941)
+
+[node name="floor2" type="Sprite2D" parent="."]
+position = Vector2(218, 39)
+scale = Vector2(0.589166, 0.54525)
+texture = ExtResource("2_dbeup")
+region_enabled = true
+region_rect = Rect2(62.4229, 55.0095, 247.24, 143.941)
+
+[node name="floor3" type="Sprite2D" parent="."]
+position = Vector2(73, 111)
+scale = Vector2(0.589166, 0.54525)
+texture = ExtResource("2_dbeup")
+region_enabled = true
+region_rect = Rect2(62.4229, 55.0095, 247.24, 143.941)
+
+[node name="floor4" type="Sprite2D" parent="."]
+position = Vector2(218, 111)
+scale = Vector2(0.589166, 0.54525)
+texture = ExtResource("2_dbeup")
+region_enabled = true
+region_rect = Rect2(62.4229, 55.0095, 247.24, 143.941)
+
+[node name="chair" type="Sprite2D" parent="."]
+position = Vector2(632, 209)
+scale = Vector2(0.589166, 0.54525)
+texture = ExtResource("2_qf6my")
+region_enabled = true
+region_rect = Rect2(480, 845.452, 90.6029, 160.001)
